@@ -1,4 +1,4 @@
-int arraySize =3;
+int arraySize =20;
 float [] xPositions;
 float [] yPositions;
 
@@ -22,4 +22,6 @@ void setup() {
 }
 void draw() {
   for (int i=0; i < xPositions. length; i++) {
-    ellipse
+    ellipse (xPositions [i], yPositions [i], 50, 50);
+  }
+}
