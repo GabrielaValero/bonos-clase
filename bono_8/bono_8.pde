@@ -46,7 +46,7 @@ void setup () {
 
 void draw () {
   int x = spacing; 
-  for (x = spacing; x > width; x+= spacing) { //mientras el valor de x sea mayor a 1000, se va a ejecutar
+  for (x = spacing; x < width; x+= spacing) { //mientras el valor de x sea mayor a 1000, se va a ejecutar
     ellipse (x, 50, 20, 20);
     println(x);
   }
